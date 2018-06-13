@@ -64,6 +64,10 @@ a(CsvUtil::readFile($f));
 History Log
 ------------------
     
+- 1.1.0 -- 2018-06-13
+
+    - add CsvUtil::readFile $options argument
+
 - 1.0.0 -- 2017-02-03
 
     - initial commit

@@ -4,6 +4,8 @@
 namespace Csv;
 
 
+use Bat\FileSystemTool;
+
 class CsvUtil
 {
     public static function readFile($f, $sep = ",", $lineLength = null, array $options = [])
@@ -28,6 +30,7 @@ class CsvUtil
 
     public static function writeToFile(array $data, $file, $delimiter = ",")
     {
+        FileSystemTool::touchDone($file);
         $fp = fopen($file, 'w');
         foreach ($data as $fields) {
             fputcsv($fp, $fields, $delimiter);

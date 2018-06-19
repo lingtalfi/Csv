@@ -64,6 +64,10 @@ a(CsvUtil::readFile($f));
 History Log
 ------------------
     
+- 1.2.0 -- 2018-06-19
+
+    - now CsvUtil::writeToFile creates the parent dir if it doesn't exist yet 
+    
 - 1.1.0 -- 2018-06-13
 
     - add CsvUtil::readFile $options argument

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Csv;
+namespace Ling\Csv;
 
 
-use Bat\FileSystemTool;
+use Ling\Bat\FileSystemTool;
 
 class CsvUtil
 {

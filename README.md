@@ -14,7 +14,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import Csv
+uni import Ling/Csv
 ```
 
 
@@ -31,7 +31,7 @@ Write example
 <?php
 
 
-use Csv\CsvUtil;
+use Ling\Csv\CsvUtil;
 
 require_once "bigbang.php";
 
@@ -58,7 +58,7 @@ Read example
 <?php
 
 
-use Csv\CsvUtil;
+use Ling\Csv\CsvUtil;
 
 require_once "bigbang.php";
 

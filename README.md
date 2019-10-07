@@ -20,7 +20,7 @@ uni import Ling/Csv
 
 Documentation
 ==============
-- [Csv api](https://github.com/lingtalfi/Csv/blob/master/doc/api/Ling/Csv.md) (generated with [DocTools](https://github.com/lingtalfi/DocTools)))
+- [Csv api](https://github.com/lingtalfi/Csv/blob/master/doc/api/Ling/Csv.md) (generated with [DocTools](https://github.com/lingtalfi/DocTools))
 
 
 

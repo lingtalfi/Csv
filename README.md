@@ -18,6 +18,10 @@ uni import Ling/Csv
 ```
 
 
+Documentation
+==============
+- [Csv api](https://github.com/lingtalfi/Light_Database/blob/master/doc/api/Ling/Csv.md) (generated with [DocTools](https://github.com/lingtalfi/DocTools)))
+
 
 
 Usage
@@ -67,7 +71,7 @@ a(CsvUtil::readFile($f));
 ```
 
 
-Will output:
+Will output something like:
 
 ```html
 array(7) {
@@ -108,6 +112,10 @@ array(7) {
 
 History Log
 ------------------
+    
+- 1.3.0 -- 2019-10-07
+
+    - add CsvUtil::getString 
     
 - 1.2.1 -- 2019-09-05
 
